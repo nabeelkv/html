@@ -1,0 +1,199 @@
+<!DOCTYPE html> <!-- this indicate to bowser that html content uses HTML5 version -->
+<html>
+<head> <!-- metadats goes here which don't be displayed and here list link to documents -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Colt Course References</title>
+</head>
+<body>
+	<h1>HTML</h1>  <!-- this is a block-level elements -->
+
+	<h2>Intro to HTML</h2> <!-- HTML is foundation of every website (basic language)-->
+	<ol>
+		<li>Chrome & Sublime Text</li>
+		<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN References</a></li>
+
+n		<li>&lt;&gt;Closing Tag&lt;/&gt; & &lt;Self Closing/&gt;</li>
+		<li><strong>Strong</strong> and <em>EM</em>, <del>DEL</del>, <ins>INS</ins> are new schematic markup of HTML as HTML5</li>
+e		<li>Inline Elements & Block-Level Elements (eg: &lt;span&gt; tag vs &lt;div&gt; 		tag)</li>
+
+s		<li>&lt;&gt;Elements&lt;/&gt; vs &lt;Tags&gt;</li>
+		<li>Nested List inside of HTML List (OL, UL)</li>
+t		<li>Divs and Spans will useful with CSS and JS
+		<em>divs for grouping things, generic container or selecting thing
+		so later we format or stylize that group by adding css. [!Divs and Spans]</em>
+e		</li>
+
+		<li>Lorem + Tab is placeholder text (Sublime)</li>
+		<li>Attributes : key value pair / properties like <strong>src, class</strong> (mdn references)
+d 		<em>a specific attribute not work on all tags, i mean 'src' works with img tag 			but not 			working with h1 tag
+		for further info MDN ref.</em></li>
+		<li>Anchor tag:  file protocol, http protocol, relative path.
+        </li>
+	</ol>
+
+<!-- 	intermediate section -->
+
+		<h2>Intermediate HTML</h2>
+		<ol>
+		<li>Table rows (line) strong&lt;tr&gt;I'm a row&lt;/tr&gt;</li>
+		<li>Cell &lt;td&gt; also &lt;th&gt; table header have cell</li>
+		<p><table border="1">
+			<tr>
+				<thead>
+					<th>Table head column 1 / cell 1</th>
+					<th>Table head column 2 / cell 2</th>
+				</thead>
+			</tr>
+			<tr>
+				<tbody>
+					<td>Table body column1 / cell 1 </td>
+					<td>Table body column 2 / cell 2</td>
+				</tbody>
+				<tfoot>
+					<tr><td>Table footer here</td></tr>
+				</tfoot>
+			</tr>
+		</table></p>
+		<li>Screen readers (thead, tbody) (semantic ui) which allows search engines and crawlers to identify content of page
+		rather than reading entire table or pages</li>
+		<li>commenting between codes (is great idea to memmorize and more lookup and easily findable by others and us as well.)</li>
+		<li>muliple cursors at once (cmd + click)</li>
+
+		<br>
+
+		<!-- forms basics -->
+		<li>Form actually doing nothing without Backend config, or JS Interactivity</li>
+		<li>Form is shell or conainer (which contains many inputs tags, select tags and others..) - <u>block-level elements</u></li>
+		<li>action, method | get, post request</li>
+		<li>&lt;input&gt;: Create interactive controls | types(attrib): text, date, color, file, checkbox, reset button. more on mdn</li>
+
+		<form>
+			Text: <input type="text" name="name" placeholder="Text input"><br>
+			Date: <input type="date" name="date"><br>
+			Color: <input type="color" name="color"><br>
+			File: <input type="file" name="user_file"><br/>
+			Checkbox: <input type="checkbox" name="autologin"><br>
+			Button: <button>Submit</button>
+		</form>
+
+		<li>Placeholder</li>
+		<li>&lt;button&gt; vs &lt;input type="submit"&gt;</li>
+		<li>input attribute: <strong>name=""</strong> - send each piece of data from each input along with get or post request to out of form
+		</li>
+		<li>& = Ampersand
+		</li>
+		<li>label tags in html form (caption)! - for screenreaders & other factors <br/>
+		2 way add labels: <br>1. &lt;label&gt;Username: &lt;input&gt; &lt;/label&gt; <br> 2. &lt;label for="user"&gt; Username: &lt;/label&gt;<br> &lt;input id="user"&gt;</li>
+
+		<br>
+
+		<li>Form validation (we have validation such as html validation (simple), js validation, backend)
+		</li>
+		<li><strong>"required"</strong> (is a attribute) (no need value coz true by deafult but we can value: true which work fine as well) - some browser not support this and other validations.
+		</li>
+
+		<li>present validation (please fill out) , datatype validation (please inclide '@'' in ur email), 
+		</li>
+		<li>Radio button (type="radio"): it allows choose only 1 choice at a time, 
+		it have attributes: name, value, id (for label), </li>
+		<li>select tag (use &lt;option&gt; tag inside for dropdown choices)
+		</li>
+
+		<li>textarea form tag (allow texts more than 1 line) | it has attributes: rows & cols and usual name and id</li>
+		<li>checkbox: type="checkbox") - it allows us choose more option at a time. attributes: name, id, value etc..</li>
+		</ol>
+
+devdocs.io
+<br>
+my computer is also a server > finder > ics > index.html it is same goes in web server
+<br>
+developer fundamentals of andrei to understand how original developer do
+<br>
+coolapse parent elements (nested tags inside)
+<br>
+alt - screenreaders (crawler)
+<br>
+absolute (https://gg.com/new.html) or relative path (/newpage.html)
+<br>
+server figure which files to send first, by default most server return index.html
+<br>
+html read line by line
+<br>
+reset button (type)
+<br>
+select attributes: multiple, name
+<br>
+? - query string
+<br>
+%20 - url encoding
+<br>
+html developer 
+<br>
+div - wrap inside codes for styling and dividing
+<br>
+watch Andreis HTMLÏ vs HTML5
+<br>
+new semantic elements in html5 (more meaning and rank well on google) | (<header>, <nav>, <footer>) more in w3school.  (fairly new). html 5  improve web perfomance allowing compatibility in mobile phone browsers.
+<br>
+ordered list attributes: (start, reversed, type=(A, a, i, I,))
+<br>
+img align, checkbox: checked, option: selected.
+<br>
+td stand for table data
+<br>
+top and bottom linking
+<br>
+html chracter entities (corresponding by name and numbers)   &gt = greater than!
+<br>
+iframes (works with relative and absolute path as well.)  frameborder="0", width, height, allow ful screen. align.
+<br>
+meta viewport = 1, mobile compatiblity
+<br>
+meta character set utf8: to render all possible charcters including emojy symbols, mojibake. 
+<br>
+html tagging
+<br>
+mdn vs w3school  |   technical vs bbegginners
+<br>
+autocompletion of text editors 
+<br>
+codepen.io
+<br>
+<> angular brackets
+<br>
+HR size, noshade, color etc.. more on devdocs
+<br>
+check the live result with codepen.io
+<br>
+internet archive wayback machine
+<br>
+learn shortcut for googd workflow
+<br>
+boilerplate : code template
+<br>
+emmet.io > beautify atom code
+<br>
+todo software & wallpaper
+<br>
+anchor tag download attribute
+<br>
+table cells spacing attribute
+<br>
+mdn thumbs down
+<br>
+nested table
+<br>
+input type : range
+<br>
+form: need to learn javascript
+<br>
+form: action="mailto:" | attribute: enctype="text/plain"
+
+meta utf8, meat lang en
+
+header, nav, group, footer
+
+</body>
+</html>
+
